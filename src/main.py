@@ -34,7 +34,7 @@ def main():
     root = tk.Tk()
     root.title("Образ плюс")
     root.geometry("1200x800")
-    root.iconbitmap("./swagodem/src/assets/favicon.ico")
+    root.iconbitmap("./src/assets/favicon.ico")
 
     style(root)
 

@@ -38,7 +38,8 @@ def style(root):
     style.configure("Accent.TButton",
                     background=ACCENT,
                     foreground="#ffffff",
-                    padding=6)
+                    padding=10
+                    )
     style.map("Accent.TButton",
               background=[("active", SECONDARY_BG)])
 
